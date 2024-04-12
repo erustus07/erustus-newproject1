@@ -40,4 +40,4 @@ Once the application is running, you can:
 This project is licensed under the [MIT License](LICENSE).
 
 ## Live Demo
-Check out the live demo [here](http://your-live-demo-link.com).
+Check out the live demo [here]( https://erustus07.github.io/erustus-newproject1/).
