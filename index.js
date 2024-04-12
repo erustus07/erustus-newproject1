@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
       })
       .catch(error => console.error('Error fetching data:', error));
 
-  // Function to handle displaying reviews and review submission
+  //displaying reviews and review submission
   document.getElementById('reviews-link').addEventListener('click', function(e) {
       e.preventDefault();
       document.getElementById('reviews-section').style.display = 'block';
