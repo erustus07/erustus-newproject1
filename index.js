@@ -1,18 +1,15 @@
 document.addEventListener("DOMContentLoaded", function() {
-  // Fetch data from db.json
   fetch('db.json')
       .then(response => response.json())
       .then(data => {
           const gymEquipments = data.gymEquipments;
           const equipmentContainer = document.getElementById('equipment-container');
-
-          // Iterate over the gym equipments
           gymEquipments.forEach(equipment => {
               // Create card element
               const card = document.createElement('div');
               card.classList.add('card');
 
-              // Populate card with equipment details
+              // Populating card with equipment details
               card.innerHTML = `
                   <div class="card-img">
                       <img src="${equipment.imageUrl}" alt="${equipment.name}">
@@ -25,13 +22,11 @@ document.addEventListener("DOMContentLoaded", function() {
                   </div>
               `;
 
-              // Add event listener to the purchase button
+        //creating an allert
               const purchaseBtn = card.querySelector('.purchase-btn');
               purchaseBtn.addEventListener('click', function() {
                   alert('Item added to cart');
               });
-
-              // Append card to equipment container
               equipmentContainer.appendChild(card);
           });
       })
@@ -42,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
       e.preventDefault();
       document.getElementById('reviews-section').style.display = 'block';
   });
-
   document.getElementById('review-form').addEventListener('submit', function(e) {
       e.preventDefault();
       var reviewText = document.getElementById('review-text').value;
@@ -51,7 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
           var newReview = document.createElement('div');
           newReview.textContent = reviewText;
           reviewList.appendChild(newReview);
-          document.getElementById('review-text').value = ''; // Clear input field after submission
-      }
+          document.getElementById('review-text').value = ''; }
   });
 });
