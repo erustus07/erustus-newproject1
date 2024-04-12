@@ -36,15 +36,6 @@ Once the application is running, you can:
 - Add items to your shopping cart by clicking the "Purchase" button.
 - Submit reviews for products by clicking the "Reviews" link and filling out the review form.
 
-## Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/my-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/my-feature`).
-6. Create a new Pull Request.
-
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
