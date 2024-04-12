@@ -14,7 +14,7 @@
         "imageUrl": "https://i.pinimg.com/564x/ad/5a/36/ad5a36a36574e209196d12f8c1f5f9e6.jpg",
         "price": 5000,
         "functionality": "Strength training"
-      },
+      }, 
       {
         "id": 3,
         "name": "power-tower",
@@ -22,13 +22,13 @@
         "price": 100000,
         "functionality": "Strength training"
       },
-      {
+      { 
         "id": 4,
         "name": "climbing-machine",
         "imageUrl": "https://i.pinimg.com/564x/00/21/b0/0021b0adc98d14a68f27eac2fb5eb55d.jpg",
         "price": 20000,
         "functionality": "Strength training"
-      },
+      }, 
       {
         "id": 5,
         "name": "roller",
