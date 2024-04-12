@@ -2,18 +2,18 @@
 
 Welcome to Trainers Hub, a platform for purchasing gym equipment and reading reviews.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Live Demo](#live-demo)
+## Table of Contents  
+- [Introduction]
+- [Features]
+- [Installation]
+- [Usage]
+- [Contributing]
+- [License]
+- [Live Demo]
 
 ## Introduction
 Trainers Hub is a web-based platform designed to provide users with access to a variety of gym equipment for purchase. In addition to browsing and purchasing equipment, users can also read and submit reviews for products.
-
+  
 ## Features
 - Browse a selection of gym equipment
 - View details and prices for each item
