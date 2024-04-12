@@ -116,11 +116,13 @@ a:hover {
 .card .purchase-btn:hover {
   background-color: #0056b3;
 }
+
 .delivery{
   font-size: larger;
   font-weight: bolder;
   color: #7bece3;
 }
+
 .card1{
   color: #5cf18e;
 }
@@ -131,17 +133,17 @@ a:hover {
   padding: 10px;
   border: 5px solid #93ecf8;
   margin-top: -200px;
-}
+}  
 
 /* Style for the individual review items */
 .customer-review-item {
   margin-bottom: 10px;
   border-bottom: 1px solid #e47070;
-}
+}  
 
 /* Clear floating elements */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
+}   
