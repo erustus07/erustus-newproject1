@@ -7,7 +7,8 @@
         "imageUrl": "https://i.pinimg.com/564x/99/a1/ac/99a1ac431a3ddfd67e7059a5436daa42.jpg",
         "price": 1000,
         "functionality": "Cardio exercise"
-      },
+      }, 
+        
       {
         "id": 2,
         "name": "Dumbbell",
@@ -15,6 +16,7 @@
         "price": 5000,
         "functionality": "Strength training"
       }, 
+        
       {
         "id": 3,
         "name": "power-tower",
@@ -22,6 +24,7 @@
         "price": 100000,
         "functionality": "Strength training"
       },
+        
       { 
         "id": 4,
         "name": "climbing-machine",
@@ -29,6 +32,7 @@
         "price": 20000,
         "functionality": "Strength training"
       }, 
+        
       {
         "id": 5,
         "name": "roller",
@@ -36,6 +40,7 @@
         "price": 1200,
         "functionality": "Strength training"
       },
+        
       {
         "id": 6,
         "name": "skillbike",
@@ -51,8 +56,7 @@
         "price": 7000,
         "functionality": "Strength training"
       },
-
-     
+        
       {
         "id": 8,
         "name": "jumprope",
@@ -60,7 +64,6 @@
         "price": 600,
         "functionality": "Strength training"
       },
-   
 
       {
         "id": 9,
@@ -69,9 +72,8 @@
         "price": 1400,
         "functionality": "Strength training"
       },
-
-     
-      {
+        
+        {
         "id": 10,
         "name": "bodypump",
         "imageUrl": "https://i.pinimg.com/564x/43/dd/52/43dd52190aa5cc1026f0ffdcb5c5dd55.jpg",
@@ -79,8 +81,6 @@
         "functionality": "Strength training"
       },
 
-
-     
       {
         "id": 11,
         "name": "steelplates",
@@ -89,7 +89,6 @@
         "functionality": "Strength training"
       },
       
-
       {
         "id": 12,
         "name": "gripball",
@@ -97,7 +96,6 @@
         "price": 2000,
         "functionality": "Strength training"
       },
-      
       
       {
         "id": 13,
@@ -107,7 +105,6 @@
         "functionality": "Strength training"
       },
 
-
       {
         "id": 14,
         "name": "kettlebell",
@@ -116,8 +113,6 @@
         "functionality": "Strength training"
       },
       
-
-
       {
         "id": 15,
         "name": "proteinbottle",
@@ -126,8 +121,6 @@
         "functionality": "protein holder"
       },
       
-
-
       {
         "id": 16,
         "name": "healthwatch",
@@ -136,9 +129,6 @@
         "functionality": "activity tracking"
       },
       
-
-
-
       {
         "id": 17,
         "name": "yoga mat",
