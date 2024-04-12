@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   fetch('db.json')
       .then(response => response.json())
       .then(data => {
-          const gymEquipments = data.gymEquipments;
+          const gymEquipments = data.gymEquipments; 
           const equipmentContainer = document.getElementById('equipment-container');
           gymEquipments.forEach(equipment => { 
 
