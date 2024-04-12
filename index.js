@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
           const equipmentContainer = document.getElementById('equipment-container');
           gymEquipments.forEach(equipment => { 
 
-            
+              
               // Create card element
               const card = document.createElement('div');
               card.classList.add('card');    
