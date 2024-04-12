@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
    }  
-
+   
 h1, h2, h3, h4 {margin: 0;
   line-height: 1.2;}
 
@@ -30,12 +30,12 @@ a:hover {
   background-color: #354b6171;
   padding: 2rem;
   text-align: center;
-}
+}  
 
 .head h1 { color: #3fd9e4;}
 
 .head h4 {color: #f10e0ec5;}
-
+ 
 /* Navigation styles */
 .navbar {
   background-color: #031a1bd5;
