@@ -1,0 +1,180 @@
+
+{
+    "gymEquipments": [
+      {
+        "id": 1,
+        "name": "Treadmill",
+        "imageUrl": "https://i.pinimg.com/564x/99/a1/ac/99a1ac431a3ddfd67e7059a5436daa42.jpg",
+        "price": 1000,
+        "functionality": "Cardio exercise"
+      },
+      {
+        "id": 2,
+        "name": "Dumbbell",
+        "imageUrl": "https://i.pinimg.com/564x/ad/5a/36/ad5a36a36574e209196d12f8c1f5f9e6.jpg",
+        "price": 5000,
+        "functionality": "Strength training"
+      },
+      {
+        "id": 3,
+        "name": "power-tower",
+        "imageUrl": "https://i.pinimg.com/564x/20/74/9d/20749d014169ca03f189ae27d071e631.jpg",
+        "price": 100000,
+        "functionality": "Strength training"
+      },
+      {
+        "id": 4,
+        "name": "climbing-machine",
+        "imageUrl": "https://i.pinimg.com/564x/00/21/b0/0021b0adc98d14a68f27eac2fb5eb55d.jpg",
+        "price": 20000,
+        "functionality": "Strength training"
+      },
+      {
+        "id": 5,
+        "name": "roller",
+        "imageUrl": "https://i.pinimg.com/564x/3c/0d/f1/3c0df1630efffdf3cf5c2206326252fd.jpg",
+        "price": 1200,
+        "functionality": "Strength training"
+      },
+      {
+        "id": 6,
+        "name": "skillbike",
+        "imageUrl": "https://i.pinimg.com/564x/8f/e9/63/8fe963ea1a673a303d2b9cc2442b3842.jpg",
+        "price": 16000,
+        "functionality": "Strength training"
+      },
+
+      {
+        "id": 7,
+        "name": "tire",
+        "imageUrl": "https://i.pinimg.com/564x/29/e5/e2/29e5e2a6eba3cad013feccb10c5f2bd5.jpg",
+        "price": 7000,
+        "functionality": "Strength training"
+      },
+
+     
+      {
+        "id": 8,
+        "name": "jumprope",
+        "imageUrl": "https://i.pinimg.com/564x/fb/51/cb/fb51cb197c0c1d14deb3f98f828aed47.jpg",
+        "price": 600,
+        "functionality": "Strength training"
+      },
+   
+
+      {
+        "id": 9,
+        "name": "pushup bars",
+        "imageUrl": "https://i.pinimg.com/564x/9f/30/72/9f307242372f0012e0d521c5e117f961.jpg",
+        "price": 1400,
+        "functionality": "Strength training"
+      },
+
+     
+      {
+        "id": 10,
+        "name": "bodypump",
+        "imageUrl": "https://i.pinimg.com/564x/43/dd/52/43dd52190aa5cc1026f0ffdcb5c5dd55.jpg",
+        "price": 10900,
+        "functionality": "Strength training"
+      },
+
+
+     
+      {
+        "id": 11,
+        "name": "steelplates",
+        "imageUrl": "https://i.pinimg.com/564x/e6/e7/9a/e6e79a66fd990f7b69db121430733881.jpg",
+        "price": 20900,
+        "functionality": "Strength training"
+      },
+      
+
+      {
+        "id": 12,
+        "name": "gripball",
+        "imageUrl": "https://i.pinimg.com/736x/ef/2d/72/ef2d729bc55c736acadcefdf620817ba.jpg",
+        "price": 2000,
+        "functionality": "Strength training"
+      },
+      
+      
+      {
+        "id": 13,
+        "name": "weightvest",
+        "imageUrl":"https://i.pinimg.com/564x/76/68/29/7668294822f65857403a110d271baa63.jpg",
+        "price": 3000,
+        "functionality": "Strength training"
+      },
+
+
+      {
+        "id": 14,
+        "name": "kettlebell",
+        "imageUrl": "https://i.pinimg.com/564x/4d/47/ad/4d47adbdc7c3de18d033b0c34d4af6ec.jpg",
+        "price": 2090,
+        "functionality": "Strength training"
+      },
+      
+
+
+      {
+        "id": 15,
+        "name": "proteinbottle",
+        "imageUrl": "https://i.pinimg.com/564x/db/fd/6a/dbfd6a8fd4591fe68911ec22aa98fa22.jpg",
+        "price": 900,
+        "functionality": "protein holder"
+      },
+      
+
+
+      {
+        "id": 16,
+        "name": "healthwatch",
+        "imageUrl": "https://i.pinimg.com/564x/e0/a1/d6/e0a1d66b811c86097827358247004dee.jpg",
+        "price": 20900,
+        "functionality": "activity tracking"
+      },
+      
+
+
+
+      {
+        "id": 17,
+        "name": "yoga mat",
+        "imageUrl": "https://i.pinimg.com/564x/f6/c0/7a/f6c07a981156fa48e676a6a97c7826b0.jpg",
+        "price": 2000,
+        "functionality": "yoga"
+      },
+      
+
+      {
+        "id": 18,
+        "name": "punching bag",
+        "imageUrl": "https://i.pinimg.com/564x/80/b0/88/80b0884951543b9832f398eb72df9f75.jpg",
+        "price": 20000,
+        "functionality": "boxing training"
+      },
+      
+      {
+        "id": 19,
+        "name": "yoga bands",
+        "imageUrl": "https://i.pinimg.com/564x/6d/39/59/6d3959b00067702899321afeedbcfcd3.jpg",
+        "price": 200,
+        "functionality": "Strength training"
+      },
+
+
+      {
+        "id": 20,
+        "name": "punching galoves",
+        "imageUrl": "https://i.pinimg.com/564x/84/56/0f/84560f8720564ce7392057d13ea942a0.jpg",
+        "price": 900,
+        "functionality": "boxing"
+      }
+      
+
+    ]
+  }
+
+ 

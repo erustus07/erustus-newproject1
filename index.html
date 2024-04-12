@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trainershub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="head">
+        <h1><u>TRAINERS HUB</u></h1>
+        <h4>passion .       discipline .     consistency</h4>
+    </div>
+
+    <div class="two">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#equipment-container">Home</a></li>
+                <li><a href="#reviews" id="reviews-link">Reviews</a></li> <!-- Added ID -->
+                <li><a href="#delivery-info">Delivery</a></li>
+                <li><a href="#contact-info">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="about2">
+        <p>Welcome to our shop, where we believe in the power of fitness to transform lives. 
+        Get your own gym equipment today.</p>
+    </div>
+    
+    <div id="equipment-container"></div>
+    
+    <div id="delivery-info" class="clearfix"> <!-- Added clearfix class -->
+        <p>We are happy to take deliveries. Please contact the number or email in our contacts for more information on how to make an order delivery.</p>
+    </div>
+    
+    <div id="contact-info" class="clearfix"> <!-- Added clearfix class -->
+        <h2>Contact Information</h2>
+        <div class="card1">
+            <h3>Whitney</h3>
+            <p>Email: whitneyonemails@gmail.com</p>
+            <p>Phone: 0700000000</p>
+        </div>
+        <div class="card1">
+            <h3>Neema</h3>
+            <p>Email: neemaone@gmail.com</p>
+            <p>Phone: 0700000057</p>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <div id="reviews-section" style="display: none;">
+        <div class="customer-review">
+            <h2>Reviews</h2>
+            <div id="reviews-list" class="customer-review-list"></div>
+            <form id="review-form">
+                <textarea id="review-text" placeholder="Write your review"></textarea><br>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

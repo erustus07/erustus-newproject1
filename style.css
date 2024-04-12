@@ -1,0 +1,173 @@
+  /* General styles */
+body { 
+  background-image: url(uu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #3ccfe9;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2, h4 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: #98e2f5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Head styles */
+.head {
+  background-color: #354b6171;
+  padding: 2rem;
+  text-align: center;
+}
+
+.head h1 {
+  color: #3fd9e4;
+}
+
+.head h4 {
+  color: #f10e0ec5;
+}
+
+/* Navigation styles */
+.navbar {
+  background-color: #031a1bd5;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+/* About styles */
+.about2 {
+  padding: 2rem;
+  text-align: center;
+  background-color:rgba(34, 15, 16, 0.397);
+}
+.two{
+  .navbar a {
+      font-size: large;
+      text-decoration: none;
+      color: #3ed1ca;
+      padding: 15px;
+      display:block;
+    }
+    
+    .navbar a:hover {
+      background-color: #124749ea;
+      color: #e0d53d;
+    }
+}
+
+#equipment-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Three columns with minimum width of 300px */
+  gap: 20px; /* Gap between columns */
+  justify-content: center; /* Centers the columns horizontally */
+}
+
+.card {
+  width: 100%; /* Set the width for each card to occupy full width of its grid cell */
+  padding: 20px; /* Add padding to create separation */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.card .card-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card .card-img img {
+  width: 100%;
+  height: auto;
+}
+
+.card .card-details {
+  padding: 10px;
+}
+
+.card .card-details h2 {
+  margin-top: 0;
+}
+
+.card .card-details p {
+  margin: 5px 0;
+}
+   
+
+
+.card .purchase-btn {
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #007bff; /* Set button background color */
+  color: #fff; /* Set button text color */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add border radius to the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s; /* Add transition effect for background color */
+}
+
+.card .purchase-btn:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+.delivery{
+  font-size: larger;
+  font-weight: bolder;
+  color: #7bece3;
+}
+.card1{
+  color: #5cf18e;
+}
+
+
+/* Define the style for the reviews */
+.customer-review {
+  float: right;
+  width: 50%; /* Adjust width as needed */
+  padding: 10px;
+  border: 5px solid #93ecf8;
+  margin-top: -200px; /* Add margin to separate from the contact info */
+}
+
+/* Style for the individual review items */
+.customer-review-item {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e47070; /* Add a border between each review */
+}
+
+/* Clear floating elements */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
