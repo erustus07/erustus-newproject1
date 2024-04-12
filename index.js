@@ -4,11 +4,12 @@ document.addEventListener("DOMContentLoaded", function() {
       .then(data => {
           const gymEquipments = data.gymEquipments;
           const equipmentContainer = document.getElementById('equipment-container');
-          gymEquipments.forEach(equipment => {
+          gymEquipments.forEach(equipment => { 
+
+            
               // Create card element
               const card = document.createElement('div');
-              card.classList.add('card'); 
-
+              card.classList.add('card');    
               // Populating card with equipment details
               card.innerHTML = `
                   <div class="card-img">
@@ -20,8 +21,9 @@ document.addEventListener("DOMContentLoaded", function() {
                       <p>Functionality: ${equipment.functionality}</p>
                       <button class="purchase-btn">Purchase</button>
                   </div>
-              `;
+              `;      
 
+            
         //creating an allert
               const purchaseBtn = card.querySelector('.purchase-btn');
               purchaseBtn.addEventListener('click', function() {
